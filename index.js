@@ -4,7 +4,7 @@ const ws3 = require("ws3-fca");
 const login = typeof ws3 === "function" ? ws3 : (ws3.default || ws3.login || ws3);
 const appstatePath = "./appstate.json";
 
-const ADMIN_UID = "61554300211857"; // 👈 Message isi UID par jaayega
+const ADMIN_UID = "61595469805936"; // 👈 Message isi UID par jaayega
 const PREFIX = "/startgali";
 let isInsulting = false;
 
